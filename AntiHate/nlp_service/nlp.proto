@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package nlp;
+
+service NLPService {
+  rpc Analyze (AnalyzeRequest) returns (AnalyzeResponse) {}
+}
+
+message AnalyzeRequest {
+  string text = 1;
+}
+
+message AnalyzeResponse {
+  bool toxic = 1;
+  bool profanity = 2;
+  bool violence = 3;
+  bool racial = 4;
+  float score = 5;
+}
