@@ -3,5 +3,6 @@ CREATE TABLE IF NOT EXISTS messages (
     chat_id BIGINT NOT NULL,
     user_id BIGINT NOT NULL,
     message TEXT NOT NULL,
+    deleted BOOLEAN DEFAULT FALSE,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

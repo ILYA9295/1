@@ -19,3 +19,5 @@ func RegisterAdminRoutes(r chi.Router, repo *repository.Repository) {
 		json.NewEncoder(w).Encode(rows)
 	})
 }
+
+//не нужен он

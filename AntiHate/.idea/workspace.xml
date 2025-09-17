@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0665cd-b437-4733-99cc-f94ca681989a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/bot/bot.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/db/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/httpserver/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlp_service/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlp_service/nlp.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlp_service/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/migrations/001_init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema/migrations/source.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bot/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bot/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bot/db/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Bot/protos/crypto.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bot/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose copy.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/bot/bot.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/bot/bot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/db/postgres.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/db/postgres.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/grpcclient/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/grpcclient/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/handlers/admin.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/handlers/admin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/httpserver/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/httpserver/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/repository/repo.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/repository/repo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nlp_service/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/nlp_service/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/migrations/001_init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/schema/migrations/001_init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/migrations/source.go" beforeDir="false" afterPath="$PROJECT_DIR$/schema/migrations/source.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="32FdeuMcJKsEhqxUayCAbk7KbpD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,10 +42,12 @@
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "git-widget-placeholder": "BOT",
+    "git-widget-placeholder": "v0.1",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
-    "last_opened_file_path": "D:/GO/PRojects/GoProjects/AntiHate",
+    "last_opened_file_path": "D:/GO/Thems/1/AntiHate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "go"
   }

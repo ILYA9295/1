@@ -19,7 +19,7 @@ type Config struct {
 
 func LoadConfig() *Config {
 	if err := godotenv.Load(); err != nil {
-		log.Println("No .env file found, using system environment variables")
+		log.Println("No .env file found, using system env vars")
 	}
 
 	return &Config{
@@ -27,7 +27,7 @@ func LoadConfig() *Config {
 		PostgresUser:     getEnv("POSTGRES_USER", "bot_user"),
 		PostgresPassword: getEnv("POSTGRES_PASSWORD", "bot_pass"),
 		PostgresDB:       getEnv("POSTGRES_DB", "bot_db"),
-		PostgresHost:     getEnv("POSTGRES_HOST", "localhost"),
+		PostgresHost:     getEnv("POSTGRES_HOST", "db"),
 		PostgresPort:     getEnv("POSTGRES_PORT", "5432"),
 		AppPort:          getEnv("APP_PORT", "8080"),
 	}

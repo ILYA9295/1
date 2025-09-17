@@ -5,11 +5,11 @@ import (
 	"log"
 	"net/http"
 
-	"project/config"
-	"project/internal/bot"
-	"project/internal/db"
-	"project/internal/httpserver"
-	"project/schema/migrations"
+	"antiHate/config"
+	"antiHate/internal/bot"
+	"antiHate/internal/db"
+	"antiHate/internal/httpserver"
+	"antiHate/schema/migrations"
 )
 
 func main() {

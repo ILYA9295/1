@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-//go:embed 001_init.sql
+//go:embed *.sql
 var migrationFiles embed.FS
 
 func RunMigrations(db *sql.DB) error {

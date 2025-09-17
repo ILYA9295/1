@@ -32,7 +32,7 @@ def serve():
     nlp_pb2_grpc.add_NLPServiceServicer_to_server(NLPServiceServicer(), server)
     server.add_insecure_port('[::]:50051')
     server.start()
-    print("✅ NLP gRPC server running on port 50051")
+    print("NLP gRPC server running on port 50051")
     try:
         while True:
             time.sleep(86400)
